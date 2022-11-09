@@ -1,0 +1,356 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navTop{
+    background-image:"C:\MY WEBSITE\IMAGES\wallhaven-qdkpgd_1920x1080.png";
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    width: 100vw;
+    z-index: 100;
+    height: 80px;
+    box-shadow: 0px 0px 3px 1px #2a6b96;
+    
+}
+nav{
+    display: block;
+}
+body {
+    font-family: "DM Sans", sans-serif;
+    line-height: 1.7;
+    font-weight: 400;
+    background-color: #f7f7f7;
+    overflow: hidden;
+    margin:0;
+    width: 100vw;
+    animation: fade  1.1s  0s ;
+    animation-timing-function:ease-in-out;
+    align-items: center;
+    
+
+}
+@keyframes slideInRight {
+    0% {
+      transform: translateX(200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+@keyframes slideInBottom {
+    0% {
+      transform:translateY(200%) ;     
+    }
+    50%{
+        transform: translateY(-15%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+@keyframes fade {
+    0%{
+     opacity: 0;
+    }
+   
+    100%{ 
+     opacity: 1;
+    }
+}
+.navitems {
+    height: 80px;
+    display: flex;
+    margin: 0px 10% 10px 10%;
+    align-items: center;
+    justify-content: space-around;
+}
+.navlinks {
+    flex: 2.5;
+}
+.navlinks a {
+    display: inline-block;
+    color: #6dd4b1;
+    transition:text-decoration 0.2s ease-out;
+    margin-left: 2%;
+    color: #1f34d4;
+    font-size: 1em;
+    text-decoration: none;
+    
+}
+
+
+.navlinks a:hover{
+    color: #357099;
+    text-decoration: underline;
+   
+}
+.navlogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+a {
+    text-decoration: none;
+}
+.mainLogo {
+    width: 210px;
+}
+.navbtn button {
+    padding: 10px 20px;
+    border-radius: 22px;
+    border: none;
+    background-color:rgb(236, 8, 8);
+    color:rgb(229, 8, 8);
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #efeff5;
+    color: #053546;
+    margin: 0 -.25rem;
+    transition: border-radius .3s ease-in-out;
+    
+
+}
+.navbtn2{
+    padding-left: 5px;
+}
+.navbtn button:hover{
+    border-radius: 1px;
+   
+    
+}
+.navbtn a{
+    color: white;
+}
+#main {
+    max-height: 90vh;
+    min-height: 50vh;
+    margin: 0 0 0 0;
+    display: flex;
+    overflow:hidden;
+    width:100vw;
+    
+}
+.MainButtons{
+   display: flex;
+   height:35vh ;
+   padding-right: 50px;
+   padding-left:50px ;
+   width: 100vw; 
+   min-width: 1000px;
+}
+.SITEBANNER{
+    padding-top:80px ;
+    max-height:41.5vh ;
+    width: 100vw;
+    overflow: hidden;
+    
+    
+}
+.banner{
+    width: 100vw ;
+    height:33vh ;
+    position: relative;
+    overflow: hidden;
+    
+}
+.btn{
+    padding-bottom: 100px;
+}
+.wrapper{
+    height:vh ;
+    margin-bottom:229.5px  ;
+    position: relative;
+    z-index: 9;
+    margin-top: -130px;
+    width: 100vw;
+    min-width: 1000px;
+   
+}
+.buttoncontainer{
+    padding-left:50px ;
+    padding-right: 50px ;
+    justify-content: center;
+    width: 100vw;
+}
+.Buttonholder{
+    width: 98vw;
+    padding-right: 300px;
+    padding-left: 225px;
+    height: 15vw;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.link1holder{
+    max-width: 33.33333%;
+    height: 100%;
+    padding-left:90px  ;
+}
+.link1{
+     transition:bottom 0.3s ease-in-out ;
+     display: block;
+     position: relative;
+     border-bottom: 1px solid #e5e5e5;
+     text-align: center;
+     background-color: #f8f8f8;
+     height: 100%;
+     box-shadow: 0 0 15px rgb(0 0 0 / 15%);
+     background-color: white;
+     color: #18ad4c;
+     width:285px;
+     border-radius:10px ;
+     bottom: 0px;
+     animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;
+    }
+.content{
+    padding-top: 20px;
+    height: 115px;
+    justify-content: center;
+
+}
+.heading1{
+    margin: 20px 0 10px 0;
+    color: #18ad4c;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.buttonlogo{
+    width: 110px;
+    margin: 20px auto;
+    border: 4px solid rgba(24, 173, 76, 0.3);
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    background: white;
+}
+.link1:hover{
+  bottom: 25px;   
+    
+}
+.link2holder{
+    max-width: 33.33333%;
+    height: 100%;
+    padding-left:30px  ;
+    padding-right: 30px;
+
+}
+.link2{
+     transition:bottom 0.2s ease-in-out ;
+     display: block;
+     position: relative;
+     border-bottom: 1px solid #e5e5e5;
+     text-align: center;
+     height: 100%;
+     box-shadow: 0 0 15px rgb(0 0 0 / 15%);
+     background-color: white;
+     color: #18ad4c;
+     width:285px;
+     border-radius:10px ;
+     bottom:0px;
+     animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInBottom;
+     
+}
+.link2:hover{
+    bottom: 25px;   
+      
+  }
+  .buttonlogo2{
+    width: 120px;
+    margin: 20px auto;
+    border: 4px solid rgba(24, 173, 76, 0.3);
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    background: white;
+    height: 120px;
+}
+.link3holder{
+    max-width: 33.33333%;
+    height: 100%;
+    padding-left:2px  ;
+    padding-right: 30px;
+
+}
+.link3{
+     transition:bottom 0.2s ease-in-out ;
+     display: block;
+     position: relative;
+     border-bottom: 1px solid #e5e5e5;
+     text-align: center;
+     height: 100%;
+     box-shadow: 0 0 15px rgb(0 0 0 / 15%);
+     background-color: white;
+     color: #18ad4c;
+     width:285px;
+     border-radius:10px ;
+     bottom:0px;
+     animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInRight;
+
+}
+.buttonlogo3{
+    width: 120px;
+    margin: 20px auto;
+    border: 4px solid rgba(24, 173, 76, 0.3);
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    background: white;
+    height: 120px;
+
+}
+.link3:hover{
+    bottom: 25px;
+}
+.footer{
+    background-color: black;
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.footcontainer{
+    max-width:1140px;
+    min-width: 1200px;
+    width: 100vw;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height:16.5px;
+}
+.footercontent{
+    align-items: center;
+    text-align: center; 
+}
+

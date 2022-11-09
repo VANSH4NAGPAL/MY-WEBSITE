@@ -1,0 +1,77 @@
+
+<html lang="en">
+<head>
+    
+    <title>PAYMENT FORM</title>
+    <link rel="stylesheet" href="style/homepage.CSS">
+</head>
+<body> 
+    <main>
+    <div class="HEADING1">
+    <h1 class="hhh" >PAYMENT FORM </h1>
+    </div>
+    <section>
+    <fieldset>
+        
+        <legend>PERSONAL INFORMATION</legend>
+    <form>
+        <p>    
+           FIRST NAME :<input class="inputtext" type="text" required name="fname" placeholder="FIRST NAME" >
+        </p>
+        <p>
+            LAST NAME :<input class="inputtext" type="text" required name="lname" placeholder=" LAST NAME">
+        </p>
+        <hr>
+        
+        <p>
+        <h4 class="para">GENDER</h4>
+            MALE <input type="radio" name="GENDER" id="male" required >
+            FEMALE <input type="radio" name="GENDER" id="FEMALE" required>
+           </p>
+          <hr>
+           <p>
+            ADDRESS : <textarea wrap="soft" name="address" id="address" cols="100" rows="10" placeholder  ="WRITE YOUR ADDRESS" required></textarea>
+           </p>
+           <p>
+            EMAIL : <input class="inputtext" type="email" name="email" id="email" required>
+           </p>
+           <p>
+            PINCODE : <input class="inputtext" type="number" name="PINCODE" id="PINCODE" required >
+           </p>
+        </fieldset>       
+         
+    </section>
+    <section>
+        <fieldset>
+            <legend>ACCOUNT INFORMATION</legend>
+            <p> BANK-
+                <select name="BANK_NAME" id="BANK_NAME">
+                    <option value="">--SELECT A BANK--</option>
+                    <option value="PUNJAB NATIONAL BANK">PUNJAB NATIONAL BANK</option>   
+                    <option value="YES BANK">YES BANK</option>        
+                    <option value="CANARA BANK">CANARA BANK</option> 
+                    <option value="STATE BANK OF INDIA">STATE BANK OF INDIA</option>        
+                </select>
+
+            </p>
+            <p>
+                ACCOUNT NUMBER :<input  type="number" class="ACC" minlength="0" maxlength="12" name="ACCNO." id="ACCNO.">
+            </p>
+            <p>
+                CVV :<input type="password" name="CVV" id="CVV"  maxlength="3" class="ACC">    
+            </p>
+            <p>
+                EXPIRATION DATE : <input type="date" name="EXPDATE" id="EXPDATE" class="ACC">
+            </p>
+            
+        </fieldset>
+    </section>
+    <div class="submit">
+    <input class="submitbtn" type="submit" value="PAY NOW" >
+    </div> 
+
+</form>
+</main>
+</body>
+</html>
+ 
