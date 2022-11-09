@@ -16,7 +16,7 @@ main{
     text-align: center;
     font-weight: bold;
     font-family:Georgia, 'Times New Roman', Times, serif;
-
+    padding:10px;
 }
 section{
     padding-left:20px ;
